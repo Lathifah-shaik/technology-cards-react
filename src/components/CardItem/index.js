@@ -2,8 +2,8 @@
 import './index.css'
 
 const CardItem = props => {
-  const {cardItems} = props
-  const {title, description, imgUrl, className} = cardItems
+  const {cardItem} = props
+  const {title, description, imgUrl, className} = cardItem
 
   return (
     <li className={`${className} card-container`}>
